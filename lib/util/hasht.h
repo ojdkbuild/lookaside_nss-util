@@ -5,7 +5,6 @@
 #ifndef _HASHT_H_
 #define _HASHT_H_
 
-#include "prtypes.h"
 
 /* Opaque objects */
 typedef struct SECHashObjectStr SECHashObject;
