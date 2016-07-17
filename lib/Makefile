@@ -46,6 +46,10 @@ ifndef NSS_DISABLE_DBM
 DBM_SRCDIR = dbm  # Add the dbm directory to DIRS.
 endif
 
+ifeq ($(NSS_BUILD_UTIL_ONLY),1)
+SYSINIT_SRCDIR=
+endif
+
 #######################################################################
 # (5) Execute "global" rules. (OPTIONAL)                              #
 #######################################################################

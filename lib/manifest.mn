@@ -18,17 +18,6 @@ DEPTH      = ..
 #  crmf jar (not dll's)
 DIRS = \
 	$(UTIL_SRCDIR) \
-	$(FREEBL_SRCDIR) \
-	$(SQLITE_SRCDIR) \
-	$(DBM_SRCDIR) \
-	$(SOFTOKEN_SRCDIR) \
-	base dev pki \
-	libpkix \
-	certdb certhigh pk11wrap cryptohi nss \
-	$(ZLIB_SRCDIR) ssl \
-	pkcs7 pkcs12 smime \
-	crmf jar \
-	ckfw $(SYSINIT_SRCDIR) \
 	$(NULL)
 
 #  fortcrypt  is no longer built
