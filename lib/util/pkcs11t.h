@@ -1650,6 +1650,10 @@ typedef struct CK_TLS_MAC_PARAMS {
 
 typedef CK_TLS_MAC_PARAMS CK_PTR CK_TLS_MAC_PARAMS_PTR;
 
+/* aliases for compatibility with prior release */
+#define CK_TLS12_MAC_PARAMS CK_TLS_MAC_PARAMS
+#define CK_TLS12_MAC_PARAMS_PTR CK_TLS_MAC_PARAMS_PTR
+
 /* WTLS is new for version 2.20 */
 typedef struct CK_WTLS_RANDOM_DATA {
     CK_BYTE_PTR pClientRandom;
