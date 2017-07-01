@@ -5,11 +5,10 @@
 #ifndef _FREEBL_H_
 #define _FREEBL_H_
 
-/* deprecated */
+/* point encoding type */
 typedef enum {
     ECPoint_Uncompressed,
-    ECPoint_XOnly,
-    ECPoint_Undefined
+    ECPoint_XOnly
 } ECPointEncoding;
 
 #endif /* _FREEBL_H_ */
