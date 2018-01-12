@@ -3,6 +3,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
+#include "prtypes.h"
 #include "pkcs1sig.h"
 #include "hasht.h"
 #include "secerr.h"
